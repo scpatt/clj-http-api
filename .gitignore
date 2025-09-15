@@ -1,0 +1,48 @@
+# Clojure build artifacts
+/classes
+/target
+/out
+
+# Leiningen
+/.lein-deps-sum
+/.lein-failures
+/.nrepl-port
+
+# Clojure CLI/deps
+/.cpcache
+/.lsp/.cache
+
+# REPL history
+.repl-history
+
+./clj-kondo
+./cpcache
+
+# IDEs and editors
+/.idea
+*.iml
+*.swp
+*.swo
+*~
+.vscode/
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Logs
+*.log
+
+# JARs
+*.jar
+
+# Test output
+/test-output
+
+# Node/npm (if using shadow-cljs or cljs)
+node_modules/
+package-lock.json
+yarn.lock
+
+# VS Code Clojure extension
+/.calva/
